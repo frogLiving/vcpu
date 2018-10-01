@@ -4,6 +4,8 @@
 
 This process is the idea of taking something small like a nand gate and building something bigger. Like many concepts behind software development you take something small break it down into managable pieces and then create something much larger. This idea can be seen in OS development, Application development and projects as well.
 
+You can also see changes to the project in the change log.  You can see that [here.](CHANGELOG)
+
 
 **Basic Gates**
 - [x] Not Gate
