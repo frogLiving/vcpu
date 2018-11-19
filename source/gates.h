@@ -10,6 +10,7 @@ struct TwoBits
     int carry;
 };
 
+// 8-bit struct with carry
 struct Byte
 {
     int one;
@@ -24,14 +25,13 @@ struct Byte
 };
 
 // Intermedate gates
-
 class Gates : public BasicGates
 {
 private:
 public:
-    TwoBits halfAddr(int a, int b);
-    TwoBits fullAddr(int a, int b, int x);
-    Byte byteAddr( Byte, Byte, int );
+    TwoBits halfAddr(int a, int b);                 // Half addr
+    TwoBits fullAddr(int a, int b, int x);          // Full addr
+    Byte byteAddr( Byte, Byte, int );               // 8-bit addr
 };
 
 #endif // Gates_H
