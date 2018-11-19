@@ -32,6 +32,7 @@ public:
     TwoBits halfAddr(int a, int b);                 // Half addr
     TwoBits fullAddr(int a, int b, int x);          // Full addr
     Byte byteAddr( Byte, Byte, int );               // 8-bit addr
+    
 };
 
 #endif // Gates_H
