@@ -16,9 +16,9 @@ You can also see changes to the project in the change log.  You can see that [he
 - [x] NAND Gate
 
 **Advanced Gates**
-- [ ] Half Adder
-- [ ] Full Adder
-- [ ] 8-bit Adder
+- [x] Half Adder
+- [x] Full Adder
+- [x] 8-bit Adder
 - [ ] 16-bit Adder
 
 
@@ -42,3 +42,8 @@ The second part of this is to attempt to learn optimizations. Taking what I know
 [Surrey - Digital logic](http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/index.html)
 
 [Wikibook - Basic gates](https://en.wikibooks.org/wiki/Electronics/Basic_gates)
+
+### Books used for this project
+[code: The hidden language of Computer Hardware and software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319/ref=sr_1_1?ie=UTF8&qid=1542642211&sr=8-1&keywords=code+the+hidden+language+of+computer+hardware+and+software)
+
+[The Elements of Computing Systems: Building a Modern Computer from First Principles](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=sr_1_1_sspa?ie=UTF8&qid=1542642362&sr=8-1-spons&keywords=the+elements+of+computer+systems&psc=1)
