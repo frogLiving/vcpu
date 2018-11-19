@@ -5,3 +5,5 @@ Today I imported the project from bitbucket to gitlab.  This project was started
 ### Update 11/19
 
 Pushed 3 new gates to the repo.  I have yet to turn them into a library yet.  I added the following gates: half addr, full addr, 8-bit addr.
+Fixed the gitingore.  That was broken and adding a make file that allows you to compile the different pieces
+Removed all object files and the pre-compiles library.
