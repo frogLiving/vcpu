@@ -17,8 +17,9 @@ using std::string;
 
 struct HelperClass
 {
-    void printGates( string, int, int, int );            // Gate name, value1, value2, passed value
-    void printGates( string, int, int, int, int);        // Gate name, value1, value2, value3, passed value
+    void printGates( string, int, int, int );           // Gate name, value1, value2, passed value
+    void printGates( string, int, int, int, int);       // Gate name, value1, value2, value3, passed value
+    void printGatesStruct(string, int, int, int, int );       // Updated for struct values
 };
 
 #endif /* helperClass_h */

@@ -17,3 +17,8 @@ void HelperClass::printGates(string entry, int a, int b, int c, int value)
 {
     cout << entry << " value is (" << a << ", " << b << ", " << c << ") = " << value << "\n";
 }
+
+void HelperClass::printGatesStruct(string entry, int a, int b, int value, int value1 )
+{
+    cout << entry << " value is (" << a << ", " << b << ") = " << "Sum: " << value << "\tCarry: " << value1 <<"\n";
+}
