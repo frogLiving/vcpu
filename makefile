@@ -14,7 +14,7 @@ objects:
 	$(CC) -c $(SRC_DIR)/gates.cpp $(SRC_DIR)/basicGates.cpp
 
 library:
-	ar rcs libGates.a basicGates.o gates.o
+	$(CL) $(LIB_NAME) basicGates.o gates.o
 
 gates: 
 	$(CC) -o $(PNAME) $(SRC_DIR)/main.cpp $(LIB_NAME)
