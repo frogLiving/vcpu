@@ -3,7 +3,6 @@ SRC_DIR		= ./source
 #SRC_FLAGS	= -g
 SRC_FILES	= $(wildcard *.cpp)
 SRC_OBJ		= gates.cpp basicGates.cpp
-#SRC_LIB		= ./library
 LIB_NAME	= libGates.a
 CL			= ar rcs
 PNAME		= gate
