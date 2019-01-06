@@ -37,6 +37,8 @@ The second part of this is to attempt to learn optimizations. Taking what I know
 
 
 ### Link to reference for gates
+[Electronic Tutorials](https://www.electronics-tutorials.ws/combination/comb_2.html)
+
 [Electronics tutorials](https://www.electronics-tutorials.ws/logic/logic_7.html)
 
 [Surrey - Digital logic](http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/index.html)

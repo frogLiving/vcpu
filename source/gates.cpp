@@ -1,4 +1,5 @@
 #include "gates.h"
+#include "switches.h"
 
 TwoBits Gates::halfAddr(int a, int b)
 {
@@ -50,4 +51,12 @@ Byte Gates::byteAddr( Byte high, Byte low, int c )
     results.one     = tempBits[0].sum;
 
     return results;
+}
+
+// 2-Input Multiplexer
+int multiplexer(int a, int b, int sel)
+{    
+    // Result of 1 and 3 gates
+    return nandGate(nandGate(a, b), 
+                    nandGate(nandGate(b,b), sel));
 }

@@ -1,7 +1,8 @@
 #ifndef Gates_H
 #define Gates_H
 
-#include "basicGates.h"
+#include "switches.h"
+#include "primGates.h"
 
 // create a struct to hold data
 struct TwoBits
@@ -25,7 +26,7 @@ struct Byte
 };
 
 // Intermedate gates
-class Gates : public BasicGates
+class Gates
 {
 private:
 public:

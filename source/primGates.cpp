@@ -8,10 +8,11 @@
 
 #include <iostream>
 
-#include "basicGates.h"
+#include "primGates.h"
+#include "switches.h"
 
 // Two variable AND Gate function
-int BasicGates::andGate(int a, int b)
+int andGate(int a, int b)
 {
     if(a == 1 && b == 1)
         return 1;
@@ -20,7 +21,7 @@ int BasicGates::andGate(int a, int b)
 }
 
 // Three variable AND Gate function (overloaded)
-int BasicGates::andGate(int a, int b, int c)
+int andGate(int a, int b, int c)
 {
     if(andGate(a, b) == 1 && c == 1)
         return 1;
@@ -29,7 +30,7 @@ int BasicGates::andGate(int a, int b, int c)
 }
 
 // Or Gate function
-int BasicGates::orGate(int a, int b)
+int orGate(int a, int b)
 {
     if(a == 1 || b == 1)
         return 1;
@@ -38,7 +39,7 @@ int BasicGates::orGate(int a, int b)
 }
 
 // Three input OR gate
-int BasicGates::orGate(int a, int b, int c)
+int orGate(int a, int b, int c)
 {
     if( orGate(a, b) == 1 || c == 1)
         return 1;
@@ -47,7 +48,7 @@ int BasicGates::orGate(int a, int b, int c)
 }
 
 // Not Gate
-int BasicGates::notGate(int a)
+int notGate(int a)
 {
     if(a == 1)
         return 0;
@@ -56,13 +57,13 @@ int BasicGates::notGate(int a)
 }
 
 // Nor Gate
-int BasicGates::norGate(int a, int b)   { return notGate( orGate(a, b) ); }
+int norGate(int a, int b)   { return notGate( orGate(a, b) ); }
 
 // Nand Gate
-int BasicGates::nandGate(int a, int b)  { return notGate( andGate(a, b) ); }
+int nandGate(int a, int b)  { return notGate( andGate(a, b) ); }
 
 // XOR Gate
-int BasicGates::xorGate(int a, int b)   { return andGate( orGate(a,b), nandGate(a, b) ); }
+int xorGate(int a, int b)   { return andGate( orGate(a,b), nandGate(a, b) ); }
 
 // XNOR Gate
-int BasicGates::xnorGate(int a, int b)  { return notGate( xorGate(a, b) ); }
+int xnorGate(int a, int b)  { return notGate( xorGate(a, b) ); }
