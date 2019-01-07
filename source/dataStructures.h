@@ -8,6 +8,15 @@ struct TwoBits
     int carry;
 };
 
+// 4-bit return type or insert
+struct FourBits
+{
+    int a;
+    int b;
+    int c;
+    int d:
+};
+
 // 8-bit struct with carry
 struct Byte
 {
