@@ -1,5 +1,4 @@
 #include "gates.h"
-#include "switches.h"
 
 TwoBits Gates::halfAddr(int a, int b)
 {
@@ -56,7 +55,20 @@ Byte Gates::byteAddr( Byte high, Byte low, int c )
 // 2-Input Multiplexer
 int multiplexer(int a, int b, int sel)
 {    
-    // Result of 1 and 3 gates
-    return nandGate(nandGate(a, b), 
-                    nandGate(nandGate(b,b), sel));
+    int one = andGate(a, not(sel));
+    int two = andGate(sel, b);
+
+    std::cout << "One = " << one << "\nTwo =" << two << "\n";
+
+    return orGate(one, two);
+}
+
+// 1-Input DeMux
+TwoBits deMux(int a, int sel)
+{
+    TwoBits returnBit;
+    returnBit.sum = andGate(a, notGate(sel));
+    returnBit.carry = andGate(a, sel);
+
+    return returnBit;
 }

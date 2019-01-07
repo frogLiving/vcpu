@@ -18,7 +18,9 @@ int main(int argc, const char * argv[])
     // Validate that argv is not null
     if( (argc - 1) == 0) { std::cout << "Argv{} is NULL\n"; return 0; }
 
-    cout << "Results of Mux: " << multiplexer(atoi(argv[1]), atoi(argv[2]), atoi(argv[3])) << "\n";
-    
+    TwoBits bits;
+
+    bits = deMux(atoi(argv[1]), atoi(argv[2]));
+    cout << "Results of deMux: " << bits.sum << ", " << bits.carry << "\n";
     return 0;
 }

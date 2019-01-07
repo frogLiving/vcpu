@@ -1,29 +1,13 @@
 #ifndef Gates_H
 #define Gates_H
 
+#include <iostream>
+
 #include "switches.h"
 #include "primGates.h"
+#include "dataStructures.h"
 
-// create a struct to hold data
-struct TwoBits
-{
-    int sum;
-    int carry;
-};
 
-// 8-bit struct with carry
-struct Byte
-{
-    int one;
-    int two;
-    int three;
-    int four;
-    int five;
-    int six;
-    int seven;
-    int eight;
-    int carry;
-};
 
 // Intermedate gates
 class Gates

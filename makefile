@@ -14,7 +14,7 @@ objects:
 	$(CC) -c $(SRC_DIR)/gates.cpp $(SRC_DIR)/primGates.cpp
 
 library:
-	$(CL) $(LIB_NAME) basicGates.o gates.o
+	$(CL) $(LIB_NAME) primGates.o gates.o
 
 gates: 
 	$(CC) -o $(PNAME) $(SRC_DIR)/source.cpp $(LIB_NAME)
