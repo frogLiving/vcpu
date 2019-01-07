@@ -1,3 +1,13 @@
+### Update 1/7/2019
+
+After a couple of months off, working and read.  I am back at it again.  This time I am adding more intermediate gates.
+These new gates will increase the functionality of the virtual cpu.  Some of these new chips include:
+* 32-bit input or gate with 16-bit results (16-bit orGate)
+* 32-bit input and gate with 16-bit results (16-bit andGate)
+* 32-bit input not gate with 16-bit results (16-bit notGate)
+* 2-1 multiplexer
+* 1-2 deMultiplexer
+
 ### Udpate 8/1/18
 
 Today I imported the project from bitbucket to gitlab.  This project was started on OSX and now will cotninue to linux.  Updates coming soon.

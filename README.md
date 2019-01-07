@@ -7,7 +7,7 @@ This process is the idea of taking something small like a nand gate and building
 You can also see changes to the project in the change log.  You can see that [here.](CHANGELOG)
 
 
-**Basic Gates**
+**Primative Gates**
 - [x] Not Gate
 - [x] AND Gate
 - [x] OR Gate
@@ -15,12 +15,16 @@ You can also see changes to the project in the change log.  You can see that [he
 - [x] NOR Gate
 - [x] NAND Gate
 
-**Advanced Gates**
+**Intermediate Gates**
 - [x] Half Adder
 - [x] Full Adder
 - [x] 8-bit Adder
+- [x] not16
+- [ ] and16
+- [ ] or16
 - [ ] 16-bit Adder
-
+- [x] Multiplexer 2-1
+- [x] DeMultiplexer 1-2
 
 **Experimental Gates**
 - 8-bit CPU

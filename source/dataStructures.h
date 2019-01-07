@@ -14,7 +14,7 @@ struct FourBits
     int a;
     int b;
     int c;
-    int d:
+    int d;
 };
 
 // 8-bit struct with carry
