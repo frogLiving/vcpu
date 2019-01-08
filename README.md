@@ -20,8 +20,8 @@ You can also see changes to the project in the change log.  You can see that [he
 - [x] Full Adder
 - [x] 8-bit Adder
 - [x] not16
-- [ ] and16
-- [ ] or16
+- [x] and16
+- [x] or16
 - [ ] 16-bit Adder
 - [x] Multiplexer 2-1
 - [x] DeMultiplexer 1-2

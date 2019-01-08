@@ -26,10 +26,9 @@ int* not16(int* data)
 // 16-bit and gate (LSB)
 int* and16(int* data1, int* data2)
 {
-    int *results = nullptr;
+    int *results = new int[bits16];
 
-    // Little indian (LSB)
-    for(int i = (bits16 -1); i >=0; i++)
+    for(int i = 0; i < bits16; i++)
         results[i] = andGate(data1[i], data2[i]);
 
     return results;
@@ -40,7 +39,6 @@ int* or16(int* data1, int* data2)
 {
     int *results = new int[bits16];
 
-    // Little indian (LSB)
     for(int i = 0; i < bits16; i++)
         results[i] = orGate(data1[i], data2[i]);
 
