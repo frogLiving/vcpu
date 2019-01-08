@@ -7,7 +7,7 @@ This process is the idea of taking something small like a nand gate and building
 You can also see changes to the project in the change log.  You can see that [here.](CHANGELOG)
 
 
-**Primative Gates**
+**Basic Logic Gates**
 - [x] Not Gate
 - [x] AND Gate
 - [x] OR Gate
