@@ -1,3 +1,15 @@
+### Update 1/8/2019
+
+Like any programmer.  The more one writes code the better one tends to get.  The more you expose yourself to others
+code the more you learn.  I have been on a journey to learn even more.  Through this process I have re-written many
+functions in this program removed object based code and used regular C code.  As this project continues to progress
+I will continue to update my style and also make things easier to use and hopefully understand.
+
+* Updated Readme (several times)
+* Completed work on AND16, OR16, NOT16, OR8-way
+* Fixed several logical errors (To many to list)
+* Updated litature to reflect more accurate vocabulary
+
 ### Update 1/7/2019
 
 After a couple of months off, working and read.  I am back at it again.  This time I am adding more intermediate gates.
