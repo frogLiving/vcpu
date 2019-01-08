@@ -15,7 +15,7 @@ You can also see changes to the project in the change log.  You can see that [he
 - [x] NOR Gate
 - [x] NAND Gate
 
-**Intermediate Gates**
+**Primative Chips**
 - [x] Half Adder
 - [x] Full Adder
 - [x] 8-bit Adder
@@ -26,7 +26,7 @@ You can also see changes to the project in the change log.  You can see that [he
 - [x] Multiplexer 2-1
 - [x] DeMultiplexer 1-2
 
-**Experimental Gates**
+**Experimental Chips**
 - 8-bit CPU
 - 16-bit CPU
 - 32-bit CPU
